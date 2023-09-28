@@ -1,4 +1,9 @@
 # Python package
+- task: AzureAppConfiguration@6
+  inputs:
+    azureSubscription: 'Azure Dev Platform Services Content Team(2123cb08-23fa-4a80-afec-4ec9e015433f)'
+    AppConfigurationEndpoint: 'https://ml-appconfig.azconfig.io'
+    KeyFilter: '*'
 # Create and test a Python package on multiple Python versions.
 # Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
